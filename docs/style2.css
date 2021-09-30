@@ -1,0 +1,152 @@
+.banner_bg{
+    height: 100vh;
+    background-image: url('https://i.ibb.co/HNvHSyV/image-header.jpg');
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.text{
+    top: 25%;
+    right: 25%;
+    left:25%;
+    bottom: 25%;
+}
+
+@media  screen and (max-width:640px) {
+    
+    nav ul{
+        width: 100%;
+        background: linear-gradient(#ff54a2,#ff575a);
+        position: absolute;
+        /* top: 75px;
+        right:0; */
+        z-index: 2;
+    }
+
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+   
+
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+}
+@media screen and (min-width:1400px) {
+    
+    .text-in-image{
+        top: 55%;
+    bottom: 20%;
+    right: 25%;
+        left: 25%;
+    }
+}
+
+@media screen and (min-width:1150px) and (max-width:1399px) {
+    
+    .text-in-image{
+        top: 55%;
+    bottom: 20%;
+    right: 25%;
+        left: 20%;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1149px) {
+    
+    .text-in-image{
+        top: 55%;
+    bottom: 20%;
+    right: 25%;
+        left: 12.5%;
+    }
+}
+
+@media screen and (min-width:1150px) and (max-width:1399px) {
+    
+    .text-in-image{
+        top: 55%;
+    bottom: 20%;
+    right: 25%;
+        left: 20%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:999px) {
+    
+    .text-in-image{
+        top: 50%;
+    bottom: 20%;
+    right: 25%;
+        left: 12.5%;
+    }
+
+    .text2 h1{
+        
+        font-size: 40px;
+    }
+
+    .text2{
+         
+        width: 300px;
+    }
+
+    .text2 p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    
+   .text-in-image{
+       top: 50%;
+    bottom: 20%;
+    right: 12.5%;
+        left: 14%;
+   }
+
+   .text2{
+       width: auto;
+   }
+}
+@media screen and (min-width:800px) and (max-width:1080px) {
+    
+    .text{
+        top: 12.5%;
+        right: 12.5%;
+        left:12.5%;
+        bottom: 12.5%;
+    }
+
+    .heading{
+        font-size: 40px;
+    }
+
+    .para{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:641px) and (max-width:799px) {
+    
+    .text{
+        top: 6%;
+        right: 6%;
+        left:6%;
+        bottom: 6%;
+    }
+
+    .heading{
+        font-size: 30px;
+    }
+
+    .para{
+        font-size: 15px;
+    }
+}
+
